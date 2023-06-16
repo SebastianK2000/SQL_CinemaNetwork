@@ -47,9 +47,7 @@ CREATE TABLE room_cinema_seats(
 	id SERIAL PRIMARY KEY,
 	number_seats varchar(4) NOT NULL,
 	collumns varchar(4) NOT NULL, 
-	id_room int NOT NULL,
-	CONSTRAINT id_room_fkey FOREIGN KEY (id_room)
-		REFERENCES rooms(id)
+	id_room int REFERENCES rooms(id)
 );
 
 CREATE TABLE seans(
