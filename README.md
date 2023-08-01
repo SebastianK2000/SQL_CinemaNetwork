@@ -16,7 +16,7 @@ oraz wpisać tam zawartość pliku "SQL_CinemaNetwork_main" zaznaczyć na począ
 
 
 
-#ENG
+ENG
 
 I created a database of Pizzerias. Of course, the database is created for exercise purposes only. The tables are filled with data np:
 
